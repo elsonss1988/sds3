@@ -12,11 +12,11 @@ function App() {
       <div className="container">
         <h1 className="text-primary py-3">DashBoard de Vendas</h1>
         <div className="row px-3">
-          <div col-sm-6>
+          <div className="col-sm-6">
             <h5 className="text-center text-secondary"> Taxa de Sucesso (%)</h5>
             <BarChart />
           </div>
-          <div col-sm-6>
+          <div className="col-sm-6">
             <h5> Todas Vendas</h5>
             <DonutChart />
           </div>
